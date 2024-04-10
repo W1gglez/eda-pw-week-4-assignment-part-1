@@ -132,7 +132,9 @@ console.log(allPositive([0, -3, -4, -5.2]));
 //     here in a comment, write the function, and test it!
 
 //Edabit Challange: Function Factory - Medium
-//Create a function that takes a "base number" as an argument. This function should return another function which takes a new argument, and returns the sum of the "base number" and the new argument.
+//Create a function that takes a "base number" as an argument. 
+//This function should return another function which takes a new argument, 
+//and returns the sum of the "base number" and the new argument.
 
 function makePlusFunction(num) {
   return function (x) {
